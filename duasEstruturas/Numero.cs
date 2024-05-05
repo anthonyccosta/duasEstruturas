@@ -14,11 +14,29 @@ namespace duasEstruturas
             this.repete = rep;
         }
 
-        public void SetNext(Numero num) { this.Next = num; }
-        public Numero GetNext() { return this.Next; }
-        public int GetNum() { return this.Num; }
-        public void SetRepete() { this.repete = true; }
-        public bool GetRepete() { return this.repete; }
-        public string PrintNum() { return this.Num.ToString(); }
+        public void SetNext(Numero num) 
+        {
+            this.Next = num;
+        }
+        public Numero GetNext()
+        { 
+            return this.Next;
+        }
+        public int GetNum() 
+        { 
+            return this.Num;
+        }
+        public void SetRepete()
+        { 
+            this.repete = true; 
+        }
+        public bool GetRepete() 
+        { 
+            return this.repete;
+        }
+        public string PrintNum() 
+        {
+            return this.Num.ToString();
+        }
     }
 }
